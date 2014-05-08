@@ -45,6 +45,7 @@ axis.POSIXct(SEQ, at=SEQ, side=1, lab=c("Thu","Fri","Sat"))
 
 axis(2)
 
+box()
 ## Plot the line for Global Active Power vs time
 
 lines(subset$new,subset$Global_active_power, type="l")
@@ -64,6 +65,7 @@ axis.POSIXct(SEQ, at=SEQ, side=1, lab=c("Thu","Fri","Sat"))
 
 axis(2)
 
+box()
 ## Graph submetering 1
 lines(subset$new,subset$Sub_metering_1, type="l",lty=1)
 
@@ -94,6 +96,7 @@ axis.POSIXct(SEQ, at=SEQ, side=1, lab=c("Thu","Fri","Sat"))
 
 axis(2)
 
+box()
 ## Plot the graph of Voltage vs time
 
 lines(subset$new,subset$Voltage, type="l")
@@ -113,6 +116,7 @@ axis.POSIXct(SEQ, at=SEQ, side=1, lab=c("Thu","Fri","Sat"))
 
 axis(2)
 
+box()
 ## Plot the line of Global Reactive Power vs time
 
 lines(subset$new,subset$Global_reactive_power, type="l")
